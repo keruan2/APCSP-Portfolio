@@ -1,0 +1,80 @@
+body {
+	background-color: pink;
+	text-align: center;
+	background-image: url(https://backgrounddownload.com/wp-content/uploads/2018/09/snow-gif-background-tumblr.gif);
+
+}
+#header{
+	color: #808080;
+	font-family: impact;
+	text-align: center;
+	font-size: 80px;
+	padding: 5px;
+	border: dotted;
+}
+
+#welcome{
+	text-align: center;
+	font-size: 45px;
+	font-family: Trebuchet MS;
+}
+
+#Q{
+	color: #A23BEC;
+	font-weight: bold;
+}
+#A{
+	color: white;
+}
+#bullets{
+	text-align: center;
+	font-size: 18px;
+}
+#header2{
+text-align: center;
+	font-size: 35px;
+	
+}
+.header2image {
+	display: block;
+}
+.rowimage {
+	height: 200px;
+	width: 24%;
+}
+#Page2{
+	text-align: center;
+	font-size: 1px;
+	color: #808080;
+}
+.algorithim1{
+	color: #FF0000
+}
+.algorithim2{
+	color: #FF0000
+}
+.algorithim3{
+	color: #FF0000
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+  font-size: 25px
+}
+a:link, a:visited {
+  background-color: transparent;
+  color: white;
+  padding: 14px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+a:hover, a:active {
+  background-color: lightblue;
+}

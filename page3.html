@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="assets/css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1 id="header">Portfolio</h1>
+	<h2> 2.5 - Mobile Devices and Apps: Hardware And Software</h2>
+	<p id="Q"> 1. Give an example of a special purpose computer that you are familiar with and briefly describe its hardware and its software. </p>
+	<p id="A"> An example of special purpose computer would be a coffee maker, the hardward of the coffee maker would be to click the button for the oz of coffee you want and that amount of coffee would come out. The software of the coffee maker is how much coffee it will despense when the button is clicked. </p>
+	<p id="Q"> 2. Explain in your own words the difference between running your app by "Connecting to the Companion" and running your app by "Packaging" it.</p>
+	<p id="A"> The difference between running an app by "Connecting to the Companion" and running an app by "packaging" it is that when the app is connected by companion it will update everytime you edit or make changes to the app, but for "Packaging" once it is downloaded you cannot make changes to the app unless you update it or redownload it. </p>
+	<p id="Q"> 3. As we learned in this lesson, a byte is about the same amount of memory as a character, such as the letter 't'. There are approximately 7 million characters in all of the Harry Potter novels combined. How many bytes of memory would all of the Harry Potter novels take up? How many copies of the Harry Potter novels would fit on a 7 Gigabyte flash drive. (Remember 1 Gigabyte is 1 billion bytes.)</p>
+	<p id="A">There would be 7 millon bytes of memory that the Harry Potter novel would take up and 1000 copies of Harry Potter novels that'll fit into 7 Gigabyte flash drive. </p>
+	<br>
+	<h2> 2.6 - Algorithm Basics</h2>
+	<img src="images/Movething.png">
+	<p id="Q"> 1. For the robot in the maze above, is CAN_MOVE(forward) true? Is CAN_MOVE(right) true?</p>
+	<p id="A"> Yes, the robot can move forward. The robot can_move forward after 2 steps forward, but the CAN_MOVE(right) would be false.</p>
+	<p id="Q"> 2. Write an algorithm using the 4 commands above to navigate the robot through the maze to reach the gray square. You can pretend that one of you is the robot and walk through your algorithm with your fingers on the maze. Are there commands that are repeated in your algorithm? Highlight them.</p>
+	<div class="algorithim1"> <p>MOVE_FORWARD, MOVE_FORWARD</div>ROTATE_RIGHT,<div class="algorithim2">MOVE_FORWARD, MOVE_FORWARD, MOVE_FORWARD, MOVE_FORWARD,</div>ROTATE_LEFT,<div class="algorithim3">MOVE_FORWARD, MOVE_FORWARD</p>
+	</div>
+	<p id="Q"> 3. Let's replace the repeated commands with a repetition control structure. The following command can be used to repeat a block of commands (see image in 2.6): Rewrite your algorithm above using Repeat n times control structures (substituting in a number for n) instead of repeating the MOVE_FORWARD command many times.</p>
+	<p id="A"> Repeat 2 times (MOVE_FORWARD), ROTATE_RIGHT, Repeat 4 times(MOVE_FORWARD), ROTATE_LEFT, Repeat 2 times(MOVE_FORWARD)</p>
+	<p id="Q"> 4. Write a more general algorithm to navigate a maze using IF commands and a REPEAT UNTIL GoalReachedcommand, which tests if the robot has reached the gray square goal.<br>
+	a. Which part(s) of the algorithm above are selection control structures? <br>
+	b. Which part of the algorithm above is a repetition control structure? Remember a control structure can consist of multiple statements. <br> 
+	c. Does the algorithm solve the maze above and navigate the robot to the goal, the gray square? How many times does it need to run through the loop? <br>
+	d. Create a maze this algorithm will NOT be able to solve!  Include a description or a photo of your drawing of such a maze in your portfolio. </p>
+	<br>
+
+	<p id="A"> REPEAT UNTIL GoalReached
+            {
+                IF (CAN_MOVE forward)
+                    MOVE_FORWARD
+                IF (CAN_MOVE left)
+                    ROTATE_LEFT 
+                IF (CAN_MOVE right)
+                             ROTATE_RIGHT
+                         }
+            <br>
+            a. IF (CAN_MOVE forward), IF (CAN_MOVE left), IF (CAN_MOVE right) are the selection control structures.
+            <br>
+            b. REPEAT UNTIL GoalReached is a repetition control structure.
+            <br>
+            c. Yes, it has to run 8 times.
+            <br>
+            d. <img src="images/maze.png">
+        </p>
+        <h2> 2.7 - I Have A Dream Projects</h2>
+<p id="Q"> 1. In this lesson, you created your own sound board app. Give a brief description of it here. Describe its theme, if it has one, and what particular sounds (music or speeches) it plays. Attach or embed your video.</p>
+<p id="A"> Me and my partners sound board app was centered around pokemon, it had 6 starter pokemons and they all played a sound of their voice. If the tablet was shaken it would play the theme song of pokemon, we created this app because my parnter loves anime like pokemon also since we both grew up watching pokemon.</p>
+<video width="600" height="350" controls>
+    <source src="Images/PokemonAppDemo.MOV" type="video/mp4"></video>
+ <p id="Q"> 2. Describe how you designed your app's UI. What components does it use?</p>
+ <p id="A">Me and my partner designed our App's UI based on the I Have a Dream App, we added extra fetures to our app to make our app more appealing than the I Have A Dream App. The components our app uses is buttons, sound player, images, and shake sensitivity.</p>
+ <p id="Q"> 3. Now that you've had some experience building apps in App Inventor, what do you think about programming. Is it a creative activity? In what ways does it allow you to express yourself?</p>
+ <p id="A"> Now that I have experienced building apps in App Inventor I think programming is still super intresting and enjoyable, I do believe it is a creative activity because you are putting your creative ideas into this app. A way that programming allows me to express myself is putting anything I like into an app i create, for example if I like ASMR noises I could make a soundboard app on these ASMR noises i enjoy. </p>
+       <div class="footer">
+        <a href="index.html">1</a>
+       <a href="page2.html">2</a>
+       <a href="page4.html">4</a>
+    </div>
+</body>
+</html>
+<!--Make my account private. <br>
+		Delete photos that are not appropriate. <br>
+		Watch what I post and make sure it is appropriate. <br>
+		</ol> -->
