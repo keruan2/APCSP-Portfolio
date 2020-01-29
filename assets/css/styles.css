@@ -8,7 +8,7 @@ body {
 	color: #808080;
 	font-family: impact;
 	text-align: center;
-	font-size: 80px;
+	font-size: 200px;
 	padding: 5px;
 	border: dotted;
 }
@@ -24,7 +24,7 @@ body {
 	font-weight: bold;
 }
 #A{
-	color: white;
+	color: blue;
 }
 #bullets{
 	text-align: center;
@@ -41,6 +41,14 @@ text-align: center;
 .rowimage {
 	height: 200px;
 	width: 24%;
+}
+.rowimage2 {
+height: 275px;
+width: 45%;
+}
+.rowimage3 {
+	height: 175px;
+	width: 75%;
 }
 #Page2{
 	text-align: center;
