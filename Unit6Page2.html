@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="assets/css/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<h1 id=header> Portfolio </h1>
+	<h2> 6.6 - Cryptography Basics </h2>
+		<p id="Q">1. Explain briefly how the following substitution ciphers can be broken: Caesar cipher, Simple substitution cipher, Vigenere cipher.</p>
+		<p id="A">Ceaser cipher can be broken with frequency analysis, simple substitution cipher also can be broken with frequency analysis, and VIgenere cipher can be broken with brute force, since its always a 26 letter alphabet.</p>
+		<p id="Q"> 2. Define symmetric encryption.</p>
+		<p id="A">symmetric encryption is a same key used for both encryption and decryption.</p>
+		<br>
+
+	<h2>6.7 - Cryptography: Securing The Internet</h2>
+		<p id="Q">1. Explain in your own words how public key encryption is not symmetric.</p>
+		<p id="A">Public key encryption is not symmetric because it uses two keys not the same key.</p>
+		<p id="Q">2. Cryptography relies on open standards - a protocol or standard that is publicly available. Why are open standards necessary?</p>
+		<p id="A">Open standards are necessary because if everyone was using different protocol it'll be hard to incorporate everything onto the web, so having open standards makes the internet easy to use and able to add on may items.</p>
+		<br>
+	<h2>6.8 - Debugging Ceaser Cipher</h2>
+		<p id="Q">1. For each of the 5 bugs in the Caesar Cipher app, explain what the bug was, how to fix it, and the type of error (semantic or syntax). If you wish, you can take a picture of your corrected blocks and then annotate it to identify and describe the bugs you fixed.</p>
+		<p id="A">The 5 bugs in the Ceasar Cipher App are
+			<br>
+			The procedure for ceasarEncrypt the result should be cipher text not plaintext because if your encrypting a message you'll want to change your plaintext to into a code. This is semantic.
+			<br>
+			The procedure for ceasarEncrypt for the repetion block for "to" should be length of the plaintext that you want to encrypt not the length of 5. If it was 5 then your code would only be able to encrypt a code of 5 letters. This is syntax.
+			<br>
+			The procedure for ceasarDecrypt the result of the procedure should get plaintext not get ciphertext. Since you want to get your normal alphabet letters after decrypting a message not a message that is still in crypto. This is semantic.
+			<br>
+			For the Buttons for encrypt and decrypt both of the buttons were "set TextBoxPlainText" whileone had to be "set TextBoxCipherText". This is syntax
+			<br>
+			Last bug in this app was that for the procedure for the ceasarEncrypt was missing a downcase for plaintext since the text is all upcase so this would make the text be able to use upcase and downcase. This is syntax.
+
+		</p>
+
+		<br>
+
+		<h2>6.9 - Impacts of CS: Cryptography and the Government</h2>
+			<p id="Q">1. What does it mean to say that the government would like to have a back door to the encrypted data on a mobile phone?</p>
+			<p id="A">This means that the goverment would like to have access to the information easily by having access to something behind the system. </p>
+			<p id="Q">2. What are the main legal and ethical reasons for letting the government have a back door?</p>
+			<p id="A">The main legal and ethical reason for letting the government have a backdoor is to be able to access criminal's phones if they are guilty of what they did.</p>
+			<p id="Q">3. What are the main legal and ethical reasons against letting the government have a back door?</p>
+			<p id="A">The main legal and ethical reasons against the government having a back door is that they could use this software to access anyones phones without the person knowing and violating the privacy of citizens.</p>
+			<p id="Q">4. Do you think Apple should abide by the Court’s decision and unlock the mobile phone in the San Bernardino case? Explain.</p>
+			<p id="A">No, I dont think Apple should abide by the Court's decison and unlock the mobile phone in the San Bernadino case because once the government has access to tools to unlock an iphone it may get out to the public on accident or someone in the government may abuse this tool being able to access anyones phone without their knowledge. </p>
+
+
+
+	<div class="footer">
+		<a href="index.html">Home</a>
+		<a href="Unit6Page1.html">1</a>
+</div>
+
+</body>
+</html>
